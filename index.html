@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Arimo|Didact+Gothic" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<section id="main">
+   <div id="body">
+    <div class="container-fluid">
+       <div class="row">
+           <div class="col">
+               <p class="display-3 text-center text-white my-4" id="header">
+                   What is the <br> answer you seek?
+                </p>
+           </div>
+       </div>
+       <div class="row justify-content-center mb-3">
+            <div class="form" id="questionForm" onsubmit="return validateForm()">
+                <div class="form-group">
+                   <label for="Question"></label>
+                   <input type="text" id="questionBox" placeholder="Please ask a 'yes' or 'no' question here..." class="lead text-muted">
+                </div>
+            </div>
+        </div>
+       <div class="row text-center buttonCol">
+           <div class="col-6">
+               <button class="btn btn-outline-light" id="getAnswer">
+                   Ask Now
+               </button>
+           </div>
+           <div class="col-6">
+               <button type="button" onClick="clearField();" class="btn btn-outline-light ">Clear</button>
+           </div>
+       </div>
+       <div class="row m-3 text-white">
+            <div class="m-auto">
+                <div class="col">
+                    <p class="lead answerSpace"> "
+                       <span id="thinking"> ... </span>
+                        <span id="answerText"></span>
+                        <span  id="invalid-submit">You must input a proper question!</span> "
+                    </p>
+                </div>
+            </div>
+        </div>
+    <footer class="foot">
+        <div class="row pt-1">
+           <div class="col text-center">
+            <h6 class="lead text-white">&copy; Rachel Greene | 
+            June 2018 | 
+            <a href="https://twitter.com/RachelGWebDev"> <i class="fa fa-twitter-square text-white ml-2" target="_blank"></i> </a> 
+            <a href="https://github.com/RachelGWebDev" target="_blank"> <i class="fa fa-github-square text-white ml-2"></i> </a>
+            <a href="https://codepen.io/RachelGWebDev/" target="_blank"> <i class="fa fa-codepen text-white ml-2"></i> </a>
+            </h6>
+            </div>
+        </div>
+    </footer>
+    </div>
+</div>
+</section>
+
+<!--------------------------------JQUERY SCRIPT-------------------------------->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<!--------------------------------POPPER SCRIPT-------------------------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  
+<!-------------------------------BOOTSTRAP SCRIPT------------------------------->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  
+<!---------------------------------MY SCRIPT--------------------------------->
+    <script src="scripts.js"></script>
+    
+</body>
+</html>
