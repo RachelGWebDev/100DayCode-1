@@ -9,5 +9,4 @@ Languages used:
 
 ![ScreenCap](https://media.giphy.com/media/3h1i7ueimjAhVxI8T0/giphy.gif)
 
-TRY IT OUT HERE:
-### [I'm an inline-style link](https://codepen.io/Rachel--Greene/pen/Paeraa) 
+### [TRY IT OUT HERE!](https://codepen.io/Rachel--Greene/pen/Paeraa) 
