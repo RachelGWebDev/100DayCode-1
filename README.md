@@ -7,6 +7,6 @@ Languages used:
 	* Javascript
 	* JQuery
 
-![ScreenCap](https://media.giphy.com/media/3h1i7ueimjAhVxI8T0/giphy.gif)
+![ScreenCap](https://github.com/{RachelGWebDev}/{100DayCode-1}/raw/master/path/to/code100-day1.gif)
 
-### [TRY IT OUT HERE!](https://codepen.io/Rachel--Greene/pen/Paeraa) 
+### [TRY IT OUT HERE!](https://codepen.io/Rachel--Greene/pen/Paeraa) :question::question:
